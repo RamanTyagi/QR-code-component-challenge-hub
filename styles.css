@@ -1,0 +1,41 @@
+*
+{
+  margin: 0;
+  background-color: hsl(220, 15%, 55%);
+}
+.home{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 20%;
+  height: 430px;
+  border-radius: 20px;
+  margin-top: 100px;
+  align-items: center;
+}
+.home_barcode{
+width: 90%;
+margin-top: 16px;
+margin-left: 16px;
+margin-right: auto;
+  border-radius: 20px;
+}
+.home_text1{
+  background-color: inherit;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+  width: 90%;
+  margin-left: 15px;
+}
+.home_text2{
+  color: gray;
+  background-color: inherit;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 100;
+margin-left: 35px;
+  margin-top: 15px;
+  width: 85%;
+
+}
