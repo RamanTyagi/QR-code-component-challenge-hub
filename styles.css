@@ -49,6 +49,14 @@ margin-top: 16px;
   {
     width: 90%;
   }
+  .home_text1{
+    font-size: 90%;
+
+  }
+  .home_text2{
+    font-size: 90%;
+
+  }
 }
 
 /* Extra small devices (phones, 375px and down) */
@@ -65,12 +73,66 @@ margin-top: 16px;
   .home
   {
     width: 90%;
-    height: 500px;
+    height: 530px;
   }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1500px) {
   .home{
-    height: 600px;
+    width: 40%;
+    height: 900px;
   }
+  .home_text1{
+    font-size: 30px;
+
+  }
+  .home_text2{
+    font-size: 25px;
+
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .home{
+    width: 40%;
+    height: 1100px;
+  }
+  .home_text1{
+    font-size: 50px;
+
+  }
+  .home_text2{
+    font-size: 40px;
+
+  }
+}
+@media only screen and (min-width: 2500px) {
+  .home{
+    width: 40%;
+    height: 1300px;
+  }
+  .home_text1{
+    font-size: 50px;
+
+  }
+  .home_text2{
+    font-size: 40px;
+
+  }
+}
+@media only screen
+  and (min-device-width: 820px)
+  and (max-device-width: 950px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.home{
+  width: 90%;
+  height: 900px;
+}
+.home_text1{
+  font-size: 30px;
+
+}
+.home_text2{
+  font-size: 20px;
+
+}
 }
